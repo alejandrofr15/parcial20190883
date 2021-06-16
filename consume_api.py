@@ -8,13 +8,13 @@ info = {"title": "ACADEMY", "description": "Drama", "release_year": 2006, "langu
 response = requests.put("http://localhost:23512/film/0", data=info)
 
 #Método para hacer update dado un id. Debe llevar la palabra clave
-#response = requests.patch("http://127.0.0.1:5000/film/1", data=info)
+#response = requests.patch("http://localhost:23512/film/1", data=info)
 
 #Método para hacer select dado un id. Debe llevar la palabra clave
-#response = requests.get("http://127.0.0.1:5000/film/1")
+#response = requests.get("http://localhost:23512/film/1")
 
 #Método para hacer un delete dado un id. Debe llevar la palabra clave
-#response = requests.delete("http://127.0.0.1:5000/film/2")
+#response = requests.delete("http://localhost:23512/film/1")
 
 
 print (response)
